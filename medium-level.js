@@ -131,6 +131,9 @@ function newMove(box) {
     }
 }
 
+/* As casas preenchidas pelo jogador tem um valor de 1. Por isso se uma coluna, linha ou diagonal
+tiver 2 casas preenchidas (1+1=2) pelo jogador então, o computador vê se alguma dessas casas está 
+vazia (0) e se tiver envia a coordenada.*/
 
 function blockPlay() {
 
