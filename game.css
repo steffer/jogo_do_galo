@@ -1,0 +1,88 @@
+.align-right {
+    float: right;
+    margin-right: 40px !important;
+}
+
+.align-left {
+    float: left;
+    margin-left: 40px !important;
+}
+
+.game-board {
+    margin-top: 5% !important;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #f9f5ef;
+    color: #6c8a9b !important;
+    border: 2px solid #6c8a9b;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#player-one-name{
+    color: #ff7f7f;
+}
+
+#player-two-name{
+    color: #00cccc;
+}
+
+
+
+.box {
+    border: 2px solid #6c8a9b;
+    border-radius: 0px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+.player-one-card, .player-two-card {
+  width:313px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    color: #6c8a9b !important;
+    
+   
+}
+
+.player-one-playing{
+    border: 3px solid #ff7f7f;
+}
+
+.player-two-playing{
+    border: 3px solid #00cccc;
+}
+
+#reset{
+    margin-top: 50px;
+}
+
+.col {
+    justify-content: left;
+    padding: 7px;
+   
+}
+.col-2 {
+    width: calc((100%/2) - 33px * 2);
+}
+
+span{
+    font-weight: 200;
+}
+
+b#player-one-name, b#player-two-name{
+    word-break: break-all;
+}
+
+
+ 

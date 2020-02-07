@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="play.css">
+    <!-- Link para aceder aos icons do Font Awesome -->
+    <script src="https://kit.fontawesome.com/5efcd8cca3.js" crossorigin="anonymous"></script>
+    <title>Jogo do Galo</title>
+</head>
+
+<body>
+
+    <div class="div-center">
+        <a href="home.html"><i style="margin-top: 25px;" class="fas fa-chevron-left align-left"></i></a>
+        <h1 style="text-align: center;">New Game</h1>
+
+        <div style="margin-left: 41px;">
+            <div style="margin-left: 11%;margin-top: 20%;">
+                <button id="against-friend"> 1 vs 1 </button>
+                <button id="against-computer"> AGAINST PC </button>
+            </div>
+
+            <div id="multiplayer" style="display:none">
+                <div class="row">
+                    <div class="col col-2"> <input placeholder="Player 1" type="text" name="" id="player-one-name">
+                    </div>
+                    <div class="col col-2"> <input placeholder="Player 2" type="text" name="" id="player-two-name">
+                    </div>
+                </div>
+
+                <p style="margin-left: 15px" class="warning"></p>
+            </div>
+
+            <div id="computer" style="display:none">
+                <input  placeholder="Name " type="text" name="" id="player-name">
+
+                <select id="level">
+                    <option value="easy">EASY</option>
+                    <option value="medium">MEDIUM</option>
+                    <option value="hard">HARD</option>
+                </select>
+                <p style="margin-left: 15px" class="warning"></p>
+            </div>
+
+
+            <div class="align-center" style="top:85%">
+                <button style="display:none" id="start-multiplayer"> START </button><br>
+                <button style="display:none" id="start"> START </button><br>
+            </div>
+        </div>
+    </div>
+
+    <script src="play.js"></script>
+</body>
+
+</html>
